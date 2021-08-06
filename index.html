@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA RICETTA</title>
+    
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=WindSong:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Style+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="js/app.js" defer></script>
+
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <h1 class="h1">La Ricetta</h1>
+            <ul class="redes">
+                <li class="li">Instagram</li>
+                <li class="li">Facebook</li>
+                <li class="li">Youtube</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="principal">
+        <h2 class="h2">LA RICETTA</h2>
+    </div>
+    <div class="tradicion">
+        <p class="p">RECETAS TRADICIONALES ITALIANAS</p>
+    </div>
+    <div class="contenedor">
+        <div class="tabs">
+            <ul class="botones">
+                <li class="boton activo">Pasta</li>
+                <li class="boton">Pizza</li>
+            </ul>
+            <ul class="textos">
+                <div class="texto activo">Auténticas salsas tradicionales, fáciles y rápidas de elaborar. Descubre desde recetas fáciles a otras más elaboradas y conviértete en un auténtico chef, pruébalas y te sorprenderás.</div>
+                <div class="texto">Recetas de pizzas artesanales, como se hace en las casas italianas, con tradición y sabor. Aprende fácilmente como hacer una pizza casera en poco tiempo y se un auténtico chef italiano. Pruébalas y te sorprenderás.</div>
+            </ul>
+            <div class="grids">
+                <div class="grid activo">
+                    <div class="card pasta">
+                        <img class="svg" src="./assets/noun_Pasta_3096515.svg" alt="">
+                        <img src="assets/italian-spaghetti-with-tomato-sauce-in-pan.jpg" alt="" class="img">
+                        <div class="texto">Pasta Boloñesa</div>
+                    </div>
+                    <div class="card pasta">
+                        <img class="svg" src="./assets/noun_Pasta_3096515.svg" alt="">
+                        <img src="assets/spaghetti-carbonara-recipe.jpg" alt="" class="img">
+                        <div class="texto">Pasta Carbonara</div>
+                    </div>
+                    <div class="card pasta">
+                        <img class="svg" src="./assets/noun_Pasta_3096515.svg" alt="">
+                        <img src="assets/tasty-beautiful-pasta-closeup-with-spinach-cheese-olives-basil-and-nuts.jpg" alt="" class="img">
+                        <div class="texto">Pasta Pesto</div>
+                    </div>
+                    <div class="card pasta">
+                        <img class="svg" src="./assets/noun_Pasta_3096515.svg" alt="">
+                        <img src="assets/spaghetti ne.jpg" alt="" class="img">
+                        <div class="texto">Pasta di Nero</div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="card pizza">
+                        <img class="svg" src="./assets/noun_Pizza_4118955.svg" alt="">
+                        <img src="assets/crbonara1.png" alt="Pizza 4 estaciones" class="img">
+                        <div class="texto">Pizza 4 estaciones</div>
+                    </div>
+                    <div class="card pizza">
+                        <img class="svg" src="./assets/noun_Pizza_4118955.svg" alt="">
+                        <img src="assets/pizza2.png" alt="Pizza Caprichosa" class="img">
+                        <div class="texto">Pizza Caprichosa</div>
+                    </div>
+                    <div class="card pizza">
+                        <img class="svg" src="./assets/noun_Pizza_4118955.svg" alt="">
+                        <img src="assets/pizza3.png" alt="Pizza Carbonara" class="img">
+                        <div class="texto">Pizza Carbonara</div>
+                    </div>
+                    <div class="card pizza">
+                        <img class="svg" src="./assets/noun_Pizza_4118955.svg" alt="">
+                        <img src="assets/pizza5.png" alt="Pizza Barbacoa" class="img">
+                        <div class="texto">Pizza Barbacoa</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="abajo">
+        <p class="p">¿ALGUNA SUGERENCIA?</p>
+    </div>
+    <div class="final">
+        <h2 class="h2">¿ALGUNA SUGERENCIA?</h2>
+        <div class="centro">
+            
+            <form class="formulario" action="">
+                <input class="text" type="text" placeholder="Plato">
+                <textarea class="textdos" placeholder="Receta" name="" id=""></textarea>
+                <input class="button" type="button" value="Enviar">
+            </form>
+        </div>
+    </div>
+    <div class="lightbox">
+        <div class="cerrar"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg></div>
+        <div class="platos">
+            <div class="slider">
+                <div class="imagenes">
+                    <img src="assets/crbonara1.png" alt="" class="img">
+                    <img src="assets/pizza2.png" alt="" class="img">
+                    <img src="assets/pizza3.png" alt="" class="img">
+                    <img src="assets/pizza5.png" alt="" class="img">
+                </div>
+            </div>
+        </div>
+        <div class="centrado">
+            <div class="acordeon">
+                <div class="titular">
+                    <h2 class="h2">Como hacer masa casera</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="svg" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+                    </svg>
+                </div>
+                <div class="texto">
+                    <div class="info">
+                        <h2 class="h2">Ingredientes</h2>
+                        <div class="linea"></div>
+                        <ul class="ul">
+                            <li class="li">
+                                <span class="nombre">Harina de trigo</span>
+                                <span class="puntitos"></span>
+                                <span class="numero">160 g</span>
+                            </li>
+                            <li class="li">
+                                <span class="nombre">Agua templada</span>
+                                <span class="puntitos"></span>
+                                <span class="numero">100 ml</span>
+                            </li>
+                            <li class="li">
+                                <span class="nombre">Sal fina cucharadita</span>
+                                <span class="puntitos"></span>
+                                <span class="numero">1</span>
+                            </li>
+                            <li class="li">
+                                <span class="nombre">Aceite de oliva virgen extra cucharada</span>
+                                <span class="puntitos"></span>
+                                <span class="numero">1</span>
+                            </li>
+                            <li class="li">
+                                <span class="nombre">Levadura seca de panadería o fresca (un cuarto de paquete)</span>
+                                <span class="puntitos"></span>
+                                <span class="numero">7 g</span>
+                            </li>
+                        </ul>
+                        <h2 class="h2">Cómo hacer masa de pizza casera</h2>
+                        <div class="linea"></div>
+                        <ul class="ul">
+                            <li class="li">
+                                <span class="nombre">Comensales</span>
+                                <span class="puntitos"></span>
+                                <span class="numero">2</span>
+                            </li>
+                            <li class="li">
+                                <span class="nombre">Dificultad</span>
+                                <span class="puntitos"></span>
+                                <span class="numero">Fácil</span>
+                            </li>
+                            <li class="li">
+                                <span class="nombre">Tiempo</span>
+                                <span class="puntitos"></span>
+                                <span class="numero">1h 30m</span>
+                            </li>
+                        </ul>
+                        <p class="p">Comenzaremos mezclando en un bol mediano con una cuchara de madera la harina y la sal. Por otra parte en otro recipiente combinamos la levadura y el azúcar con el agua, que deberá estar a unos 18 grados centígrados, removiendo para que se hidrate.
+                            Añadimos la parte líquida al bol con la harina y la sal. Usando una cuchara de madera removemos para mezclar todos los ingredientes hasta obtener una masa lisa. Le añadimos el aceite y seguimos mezclando. Una vez incorporado, pasamos la masa a una mesa enharinada o al bol de un robot amasador con gancho.
+                            Si amasamos a mano, vamos aplastando y estirando la masa con la base de la mano derecha, doblando la masa por la mitad y presionando de nuevo con la base de las dos manos. Repetiremos el proceso de forma continuada durante cinco minutos. Durante el trabajo vamos espolvoreando de vez en cuando un poco de harina o semolina la mesa de trabajo y en las manos, para que no se pegue mucho, pero siempre en pequeñas cantidades para no endurecer mucho la masa.
+                            Para que quede muy elástica tenemos que proceder al refinado de la masa. Para refinarla aplastaremos y retorceremos la masa, girándola y dándole forma alargada sobre la mesa. Unimos los extremos y amasamos con los puños hasta fusionar el conjunto. Repetimos el proceso de amasado y estirado durante 5-10 minutos.
+                            Si amasamos en un robot con gancho, echaremos la masa al bol de la amasadora y amasaremos durante siete u ocho minutos a velocidad media, hasta que veamos uniforme la bola de masa y esta se despegue de las paredes del bol.
+                            Una vez preparada la masa, nos untamos las manos con aceite y formamos una bola que ponemos en un tuper con tapa y dejamos fermentar durante tres horas a temperatura ambiente. Una vez que pase el tiempo y ya la masa fermentada, pasamos a la mesa enharinada y aplastamos la masa con los puños suavemente para eliminar el exceso de gas formado en el interior. Cortamos tres porciones de unos 230 g cada una y formamos tres bolas, que dejaremos reposar 10 minutos para que destense la masa y nos permita estirarla.
+                            Cuando pase el tiempo vamos dándole forma a cada pizza, estirando con la mano doblada las bolas de masa formando un círculo de unos 30 centímetros de diámetro y si os atrevéis girándola en el aire y dándole forma poco a poco. También podemos estirar la masa con un rodillo sobre la mesa, hasta que quede fina, máximo unos 3-4 mm. de grosor, dependiendo del resultado final que busquemos.
+                            Si nos gustan pizzas muy finas y crujientes, dejaremos reposar la masa en una bandeja de horno espolvoreada de semolina durante 10 minutos, cubrimos con los ingredientes deseados como tomate en rodajas o triturado, mozzarella, anchoas o aceitunas, regamos con un hilo de aceite de oliva virgen y horneamos a horno muy fuerte, sobre 250 grados, unos 10 minutos o hasta que quede crujiente y dorada.
+                            Si queremos una pizza de masa más gruesa y esponjosa, dejaremos fermentar de nuevo el disco de masa durante 35-40 minutos, hasta que suba lo suficiente. Cubrimos con los ingredientes y horneamos a 220º unos 20 minutos.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <article class="article">
+                <section class="section activo">
+                    <h2 class="h2">Pizza Quattro Stagioni </h2>
+                    <ul class="ul">
+                        <li class="li">
+                            <span class="nombre">Alcachofa en conserva (corazones)</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">4</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Aceitunas negras</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">4</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Salami (rodajas o lonchas)</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">4</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Champiñones Portobello laminados</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">4</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Albahaca (hojas)</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">6</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Mozzarella fresca</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">1 bola</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Salsa de tomate cucharadas</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">3</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Orégano seco</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">al gusto</span>
+                        </li>
+                    </ul>
+                    <p class="p">Preparamos los ingredientes que vamos a utilizar, laminando los champiñones y las aceitunas negras, cortando las rodajas del salami en cuartos y partiendo los corazones de alcachofas en conserva en mitades o cuartos dependiendo de su tamaño. Mejor es elegir corazones pequeños, más jugosos.Distribuimos en la base de pizza la salsa de tomate, la mozzarella cortada "a pellizcos" y colocamos con cuidado los ingredientes en los cuatro cuartos de la pizza, respetando el ingrediente de cada estación, como veis en las imágenes.Horneamos la pizza cuatro estaciones a 230º en el horno precalentado, dejando que se cocine hasta que los bordes empiecen a tostarse e inflarse, indicando que la masa ya está cocida y crujiente. Espolvoreamos con orégano seco y llevamos a la mesa.</p>
+                </section>
+                <section class="section">
+                    <h2 class="h2">Pizza Caprichosa </h2>
+                    <ul class="ul">
+                        <li class="li">
+                            <span class="nombre">Queso Mozzarella rallado</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">250 g</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Tomate triturado</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">300 g</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Alcachofa corazones, en cuartos</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">8</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Champiñones</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">200 g</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Anchoas en lata</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">1</span>
+                        </li>
+                    </ul>
+                    <p class="p">partimos la masa en tantas porciones como queramos, las estiramos con un rodillo y cubrimos con ellas los moldes para pizzas, dejando un borde ligeramente más grueso en la masa.Distribuímos el tomate sobre la masa, a continuación los corazones de alcachofa, los champiñones, el queso rallado y las anchoas. Rociamos las pizzas con aceite de oliva, las espolvoreamos de sal y las horneamos unos 25 minutos a horno precalentado a 220 ºC.</p>
+                </section>
+                <section class="section">
+                    <h2 class="h2">Pizza Carbonara </h2>
+                    <ul class="ul">
+                        <li class="li">
+                            <span class="nombre">Nata líquida para cocinar</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">4</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Bacon</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">4</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Queso mozzarella</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">4</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Champiñones laminados</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">4</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Pimienta negra molida</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">6</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Queso rallado para pizza </span>
+                            <span class="puntitos"></span>
+                            <span class="numero">1 bola</span>
+                        </li>
+                    </ul>
+                    <p class="p">Para hacer la salsa carbonara, comenzamos cortando el bacon en tiras muy finas y las salteamos en una sartén hasta que comiencen a soltar su grasa. Las reservamos que ya se terminarán de cocinar en el horno. En la grasa que hayan soltado, salteamos los champiñones laminados vuelta y vuelta, reservándolos también. Después añadimos la nata líquida y 50 g de queso rallado en hilos -cualquier mezcla que nos guste- y la reducimos hasta que empiece a fundirse el queso. Extendemos la masa o base de la pizza, ponemos tres o cuatro cucharadas sopera de la salsa de nata y queso sobre ella y la extendemos bien con el dorso de una cuchara. Después añadimos la mozzarella desmigada en trocitos, los taquitos de bacon y champiñones y el resto del queso rallado en hilos. Añadimos un poco más de la salsa carbonara que hemos elaborado, -repartiéndolos por toda la superficie de la pizza-, espolvoreamos con abundante pimienta negra y la cocinamos en el horno precalentado a 230ºC durante unos 15 minutos hasta que los bordes de la pizza comiencen a tostarse.</p>
+                </section>
+                <section class="section">
+                    <h2 class="h2">Pizza Barbacoa </h2>
+                    <ul class="ul">
+                        <li class="li">
+                            <span class="nombre">Carne picada</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">4</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Pechuga de pollo</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">4</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Cebolla</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">4</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Mozarella</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">4</span>
+                        </li>
+                        <li class="li">
+                            <span class="nombre">Salsa barbacoa</span>
+                            <span class="puntitos"></span>
+                            <span class="numero">6</span>
+                        </li>
+                    </ul>
+                    <p class="p">Picamos la cebolla y la ponemos a dorar en una sartén con abundante aceite, luego cortamos la pechuga a dados y desmenuzamos un poco más la carne picada. Cuando la cebolla esté casi en su punto, añadimos la carne, salpimentamos ligeramente, doramos y reservamos. Con el relleno listo, es el momento de preparar la base de la pizza, así que con ayuda del rodillo le damos a la masa la forma deseada, tratando de conseguir un espesor uniforme de unos cuatro milímetros. Ahora distribuimos un poco de salsa barbacoa sobre la base, luego añadimos la mezcla de cebolla y carne y por último lo cubrimos todo con queso. Para acabar, ya sólo queda hornear la pizza unos 15 minutos a 215ºC grados.</p>
+                </section>
+            </article>
+
+        </div>
+    </div>
+    <div class="lightbox2">
+        <div class="cerrado"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg></div>
+        <div class="platos">
+            <div class="slider">
+                <div class="imagenes">
+                    <img src="assets/italian-spaghetti-with-tomato-sauce-in-pan.jpg" alt="Pasta Boloñesa" class="img">
+                    <img src="assets/spaghetti-carbonara-recipe.jpg" alt="Pasta Carbonara" class="img">
+                    <img src="assets/tasty-beautiful-pasta-closeup-with-spinach-cheese-olives-basil-and-nuts.jpg" alt="Pasta al Pesto" class="img">
+                    <img src="assets/spaghetti ne.jpg" alt="" class="img">
+                </div>
+            </div>
+        </div>
+        <article class="article">
+            <section class="section">
+                <h2 class="h2">Pasta Boloñesa </h2>
+                <ul class="ul">
+                    <li class="li">
+                        <span class="nombre">Spaghetti</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">400g</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Carne picada</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">300 g</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Zanahoria</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">1</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Cebolla</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">1</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Vino blanco</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">100 ml</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Tomate frito</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">350 g</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Oregano</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">Al gusto</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Aceite de oliva, sal y pimienta</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">Al gusto</span>
+                    </li>
+                </ul> 
+                <p class="p">Para empezar a preparar la salsa boloñesa primero pela la cebolla y pícala bien finita. Pela la zanahoria con ayuda de un pelapatatas, córtala por en medio y pícala fina al igual que has hecho con la cebolla. En la olla echa un poco de aceite y ponla a fuego medio-suave. Cuando el aceite esté caliente incorpora la cebolla y la zanahoria junto con un poco de sal y cocínalas durante unos 10 minutos o hasta que estén tiernas. La idea es que apenas se doren así que si eso ocurre y todavía no están tiernas, baja la temperatura del fuego. Si se te va un poco de las manos y se están dorando demasiado o quemando siempre puedes, además de bajar el fuego, echar un poco de agua. Añade la carne picada, mézclala con el resto de ingredientes y ayúdate de una espátula para ir separándola y que no quede pegada en trozos grandes. Échale sal, pimienta negra recién molida y orégano al gusto. Cuando la carne deje de estar rosada sube el fuego para que esté alto, añade el vino blanco y espera a que se evapore el alcohol, tardará solamente 2-3 minutos. Baja el fuego para que esté suave e incorpora la salsa de tomate y déjalo cocer todo durante 20 minutos para que los sabores se fusionen y la carne quede tierna. Si conforme avanza la cocción quieres añadirle más salsa de tomate no hay problema en echársela en el momento que prefieras. Y cuando ya la tengas lista no te olvides de probarla por si hay que rectificarla de sal o añadirle más orégano o pimienta. Cuando ya casi esté lista la salsa boloñesa puedes ponerte a preparar la pasta. Pon abundante agua a cocer en una olla a fuego fuerte. Cuando hierva el agua echa una cucharadita de postre de sal y los spaghetti, y en cuanto hierva el agua de nuevo (tardará muy poco) empieza a contar los minutos que indique el paquete. Cuando los spaghetti estén listos échalos sobre un escurridor en el fregadero para que suelten el agua. Incorpora los spaghetti a la olla de la salsa boloñesa con el fuego ya apagado, mézclalo todo bien y ya los tienes listos.</p>
+            </section>
+            <section class="section">
+                <h2 class="h2">Pasta Carbonara </h2>
+                <ul class="ul">
+                    <li class="li">
+                        <span class="nombre">Spaghetti</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">400g</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Panceta</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">100 g</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Huevos</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">3</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Queso parmesano</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">70 g</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Nata para cocinar</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">200 ml</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Cebolla</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">1</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Aceite de oliva, sal y pimienta</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">Al gusto</span>
+                    </li>
+                </ul> 
+                <p class="p">Pela la cebolla y córtala muy picadita. En un cazo o sartén pequeña, pon un poco de aceite y sal, y a fuego medio-lento, pocha la cebolla, cuidando que no se dore demasiado, dándole vueltas de vez en cuando, durante unos 10 minutos, hasta que esté ligeramente transparente. Corta la panceta en tiritas finas y, en una sartén antiadherente en la que después te quepa toda la pasta, saltéala a fuego medio, que se dore ligeramente. Reserva. En un bol, bate los huevos, ralla el queso y añádelo. Remueve bien e incorpora un poco de pimienta negra molida. Mezcla bien para que se fusione todo. Echa la nata en el cazo con la cebolla, además de pimienta negra molida, remueve bien y baja el fuego al mínimo. Deja que se caliente todo junto durante un par de minutos. Ahora es cuando debes aplicar el verdadero truco para elaborar la perfecta carbonara: cuando los espaguetis estén listos, y aprovechando que siguen bien calientes tras su cocción, échalos a la sartén con la panceta, remueve bien durante un minuto, y a continuación añade la mezcla de huevos y queso, removiendo suavemente para que la pasta quede impregnada con la mezcla. De esta forma, el propio calor de los espaguetis hará que el huevo se cuaje ligeramente y el resultado quede cremoso pero no crudo. También el queso quedará derretido y mezclado por completo en el plato. Cuando el huevo ya no esté líquido, es el momento de incorporar la mezcla de nata y cebolla y revolver bien, para que los espaguetis se impregnen por completo con la salsa y queden cremosos.</p>
+            </section>
+            <section class="section">
+                <h2 class="h2">Pasta al Pesto </h2>
+                <ul class="ul">
+                    <li class="li">
+                        <span class="nombre">Spaghetti</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">400g</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Albahaca</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">150 g</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Piñones </span>
+                        <span class="puntitos"></span>
+                        <span class="numero">100 g</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Queso parmesano</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">300 g</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Ajo</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">2 Dientes</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Aceite de Oliva</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">200 ml</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Sal</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">Al gusto</span>
+                    </li>
+                </ul> 
+                <p class="p">Cocemos los espagueti. Añadimos un puñadito de sal en una cazuela con abundante agua hirviendo. Después añadimos los espagueti y los removemos con frecuencia, especialmente los primeros minutos de la cocción. Para que no se peguen al fondo. Mientras se cuecen, preparamos la salsa pesto. En un vaso batidor ponemos la albahaca, el queso parmesano (u otro de tu gusto pero, mejor que sea curado. Con sabor), los dientes de ajo, los piñones, que puedes sustituirlos por nueces o almendras y el aceite de oliva. Lo batimos bien hasta que nos quede una salsa verde y bastante densa. Ponemos la salsa en un bol grande. Y cuando los espaguetis estén al dente (tardarán unos 10 minutos de cocción), reservamos dos cucharones del caldo de la cocción. Unos 100ml. Y escurrimos los espaguetis del resto del agua. Acto seguido, ponemos los espagueti en el bol donde habíamos puesto el pesto. Añadimos el caldo de la cocción, que darán a la salsa un toque más cremoso y sobre todo añadirá mucho sabor y con un tenedor mezclamos durante un par de minutos. Para que los espaguetis absorban bien toda la salsa.</p>
+            </section>
+            <section class="section">
+                <h2 class="h2">Pasta al nero di Sepia con gulas y gambas </h2>
+                <ul class="ul">
+                    <li class="li">
+                        <span class="nombre">Spaghetti Nero di Sepia</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">400g</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Cebolla</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">Una y media</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Gambas peladas </span>
+                        <span class="puntitos"></span>
+                        <span class="numero">100 g</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Gulas</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">250 g</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Ajo</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">5 Dientes</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Aceite de Oliva</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">5 Cucharadas</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Sal y pimienta</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">Al gusto</span>
+                    </li>
+                    <li class="li">
+                        <span class="nombre">Cayena</span>
+                        <span class="puntitos"></span>
+                        <span class="numero">Una pizca</span>
+                    </li>
+                </ul> 
+                <p class="p">Para hacer esta receta de spaguetti al nero de sepia con gambas, o espaguetis negros con gambas, os recomiendo utilizar directamente los espaguetis negros que encontraréis en los comercios, pero si no los encontráis, podéis utilizar los normales y cocerlos añadiendo un sobre o dos de tinta al agua y os quedarán más o menos igual de oscuros. Comenzamos preparando la salsa que tiene dos componentes. Por un lado unas gambas o unos gambones salteados con ajo laminado y un buen aceite de oliva. Por otro una salsa con cebolla, nata y tinta que servirá para dar cremosidad a nuestra receta. En una sartén pochamos a fuego lento media cebolla picada bien fina y cuando esté bien blandita, añadimos la tinta de calamar, un cucharón del agua de cocer la pasta y 200 ml de nata. Dejamos cocer 3 minutos y reservamos. En otra sartén freímos las gambas con el ajo hasta que tengan un color naranja intenso. Terminamos la receta incorporando la pasta cocida y bien escurrida y las gambas a la sartén donde tenemos la salsa de cebolla, salteando el conjunto para que se mezclen bien los ingredientes. El resultado es realmente sabroso.</p>
+            </section>
+        </article>
+    </div>
+
+    
+</body>
+</html>
